@@ -1,0 +1,77 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"acfd1149-416e-4138-8955-b6984c03511c\",\"columns\":[{\"UUID\":\"2e045acd-e58c-4044-a413-bd9439e7c623\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "IOT Device Simulation",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "6d57b474-962c-41e5-9cb2-ba7e19a09ed9",
+              "type" : "component"
+            } ],
+            "id" : "2e045acd-e58c-4044-a413-bd9439e7c623",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "acfd1149-416e-4138-8955-b6984c03511c",
+          "type" : "component"
+        } ],
+        "id" : "3b3d2fd2-8cea-48db-8927-fd485757a229",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"50fa0158-ce5c-4d49-a324-4b97b6dd3b5e\",\"columns\":[{\"UUID\":\"7a5cfc3f-9d28-4e2b-8947-b67b99d53547\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "7a5cfc3f-9d28-4e2b-8947-b67b99d53547",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "50fa0158-ce5c-4d49-a324-4b97b6dd3b5e",
+          "type" : "component"
+        } ],
+        "id" : "432927d9-078e-404c-a626-f72ed88e351c",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "29f8f2ff-d013-40a1-9d0c-b212180afc29",
+      "type" : "component"
+    }
+  }
+}

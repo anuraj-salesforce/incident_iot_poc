@@ -1,0 +1,63 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b228f70e-ca92-439c-b781-ad85817b18f3\",\"columns\":[{\"UUID\":\"6a2dfd2f-2009-434e-8f1b-040670ec9bb9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "flowName" : "{\"flowName\":\"IOT_Motor_Failure\",\"flowLabel\":\"IOT Motor Failure\"}"
+              },
+              "definition" : "dxp_flow:flow",
+              "id" : "30b828ab-b530-47de-98fc-1122eeac66c2",
+              "type" : "component"
+            } ],
+            "id" : "6a2dfd2f-2009-434e-8f1b-040670ec9bb9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b228f70e-ca92-439c-b781-ad85817b18f3",
+          "type" : "component"
+        } ],
+        "id" : "26c1d35d-2743-420e-a6b4-d6d847f80815",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "6ef8d5f0-4c8f-4953-a092-c5c912e83647",
+          "type" : "component"
+        } ],
+        "id" : "8c97be53-d621-4377-bda9-288d2d7548a2",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "0f96e77b-f787-4e5d-a65b-5a37bc8c94ab",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  }
+}
